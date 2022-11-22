@@ -1,6 +1,6 @@
 # Implementing-Machine-Learning-Algorihtms
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Linear Regressions 
   
@@ -26,3 +26,32 @@ WORKFLOW OF THE REGRESSION MODEL :
     4. Check the loss function for the parameter values
     5. Update the parameter values using Gradient Descent
     6. Repeat 3, 4, 5 till minimum loss function is reached
+    
+    
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+ # LOGISTIC REGRESSION
+
+    Y_hat = 1/ 1+ e^-Z    where Z = w.X + b 
+
+        Y_hat -> predicted value
+        X -> independent variable
+        w -> Weight
+        b -> bias
+    
+    Gradient Descent:
+
+        An optimizing algorithm used for minimizing the loss function in variou machine learning algorithms. Used for updating the parameters of the learning model.
+
+        w = w - L*dw
+        b = b - L*db
+
+    Learning Rate:
+
+        Tuning parameter in an optimization algorithm that determines the step size at ech iteration while moving towards a minimum of a loss function
+
+    Derivatives 
+
+        dw = ((Y_hat - Y)X)/m
+
+        db = (Y_hat - Y)/m
